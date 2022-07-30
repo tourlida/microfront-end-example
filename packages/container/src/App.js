@@ -6,6 +6,7 @@ import {
 import { BrowserRouter } from "react-router-dom";
 import MarketingApp from "./components/MarketingApp";
 import Header from "./components/Header";
+
 //use it to solve collision of the css in the production
 const generateClassName = createGenerateClassName({
   productionPrefix: "co",
